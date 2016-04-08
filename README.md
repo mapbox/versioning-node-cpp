@@ -14,7 +14,7 @@ Following this convention will make it easier to know:
 4. If a module *does not* directly depend on Mapnik, but instead depends on other Mapnik-dependent modules, and you want the Mapnik-dependent modules to automatically increment on the minor-level: **you must also increment your module's version on the minor-level even if there are no API-breaking changes**
 
 
-### Revert FAQs
+### C++ Module Revert Example
 
 This goes through the scenario of upgrading one C++ node module and downgrading another at the same time, due to breaking changes. 
 - The first C++ module includes bug fixes that we want (node-gdal). 
